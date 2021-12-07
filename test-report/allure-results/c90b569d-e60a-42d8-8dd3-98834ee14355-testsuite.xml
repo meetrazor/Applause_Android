@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629292381471' stop='1629292419129'>
+    <name>Login validations</name>
+    <title>Login validations</title>
+    <test-cases>
+        <test-case start='1629292381488' status='broken' stop='1629292396232'>
+            <name>Displays warning message when logging in with invalid credentials</name>
+            <title>Displays warning message when logging in with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629292381490' status='broken' stop='1629292396232'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b178fee9-7875-42bf-9d26-8aa8870c177d-attachment.png' type='image/png' size='597997'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1629292396232' status='canceled' stop='1629292396234'>
+                    <name>When I try to log in with credentials; email: 'user@123456' and password: '12346.346'</name>
+                    <title>When I try to log in with credentials; email: 'user@123456' and password: '12346.346'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629292396234' status='canceled' stop='1629292396234'>
+                    <name>Then app displays a message that the credentials are invalid</name>
+                    <title>Then app displays a message that the credentials are invalid</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("~Login-screen") still not displayed after 11000ms</message>
+                <stack-trace>Error: element ("~Login-screen") still not displayed after 11000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:88:5)
+                    at LoginScreen.waitForIsShown (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/screenobjects/app.screen.js:15:33)
+                    at World.&lt;anonymous> (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/steps/app.login.steps.js:11:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1629292396235' status='broken' stop='1629292407670'>
+            <name>Displays warning message when logging in with invalid credentials</name>
+            <title>Displays warning message when logging in with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629292396236' status='broken' stop='1629292407670'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='b0b4bacf-96b4-4ce0-a559-092d14053b29-attachment.png' type='image/png' size='597997'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1629292407670' status='canceled' stop='1629292407672'>
+                    <name>When I try to log in with credentials; email: '3243g@user' and password: '/12346569'</name>
+                    <title>When I try to log in with credentials; email: '3243g@user' and password: '/12346569'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629292407672' status='canceled' stop='1629292407672'>
+                    <name>Then app displays a message that the credentials are invalid</name>
+                    <title>Then app displays a message that the credentials are invalid</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("~Login-screen") still not displayed after 11000ms</message>
+                <stack-trace>Error: element ("~Login-screen") still not displayed after 11000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:88:5)
+                    at LoginScreen.waitForIsShown (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/screenobjects/app.screen.js:15:33)
+                    at World.&lt;anonymous> (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/steps/app.login.steps.js:11:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1629292407673' status='broken' stop='1629292419126'>
+            <name>Displays login successfully, when entering valid credentials</name>
+            <title>Displays login successfully, when entering valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629292407674' status='broken' stop='1629292419126'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7210a11e-0c03-49a9-b40e-221371264ab8-attachment.png' type='image/png' size='597997'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1629292419126' status='canceled' stop='1629292419127'>
+                    <name>When I log in with the user'Administrator'</name>
+                    <title>When I log in with the user'Administrator'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629292419128' status='canceled' stop='1629292419128'>
+                    <name>Then app displays alert of successful login</name>
+                    <title>Then app displays alert of successful login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("~Login-screen") still not displayed after 11000ms</message>
+                <stack-trace>Error: element ("~Login-screen") still not displayed after 11000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:88:5)
+                    at LoginScreen.waitForIsShown (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/screenobjects/app.screen.js:15:33)
+                    at World.&lt;anonymous> (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/steps/app.login.steps.js:11:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

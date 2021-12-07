@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629253761545' stop='1629253777708'>
+    <name>Login validations</name>
+    <title>Login validations</title>
+    <test-cases>
+        <test-case start='1629253761556' status='passed' stop='1629253766341'>
+            <name>Displays warning message when logging in with invalid credentials</name>
+            <title>Displays warning message when logging in with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629253761558' status='passed' stop='1629253761670'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629253761670' status='passed' stop='1629253765337'>
+                    <name>When I try to log in with credentials; email: 'user@123456' and password: '12346.346'</name>
+                    <title>When I try to log in with credentials; email: 'user@123456' and password: '12346.346'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629253765337' status='passed' stop='1629253766339'>
+                    <name>Then app displays a message that the credentials are invalid</name>
+                    <title>Then app displays a message that the credentials are invalid</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1629253766345' status='passed' stop='1629253771089'>
+            <name>Displays warning message when logging in with invalid credentials</name>
+            <title>Displays warning message when logging in with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629253766346' status='passed' stop='1629253766474'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629253766474' status='passed' stop='1629253770159'>
+                    <name>When I try to log in with credentials; email: '3243g@user' and password: '/12346569'</name>
+                    <title>When I try to log in with credentials; email: '3243g@user' and password: '/12346569'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629253770159' status='passed' stop='1629253771088'>
+                    <name>Then app displays a message that the credentials are invalid</name>
+                    <title>Then app displays a message that the credentials are invalid</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1629253771092' status='passed' stop='1629253777707'>
+            <name>Displays login successfully, when entering valid credentials</name>
+            <title>Displays login successfully, when entering valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629253771093' status='passed' stop='1629253771210'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629253771210' status='passed' stop='1629253777645'>
+                    <name>When I log in with the user'Administrator'</name>
+                    <title>When I log in with the user'Administrator'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629253777645' status='passed' stop='1629253777706'>
+                    <name>Then app displays alert of successful login</name>
+                    <title>Then app displays alert of successful login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

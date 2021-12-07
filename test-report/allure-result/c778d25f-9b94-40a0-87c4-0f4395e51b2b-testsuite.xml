@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638846942575' stop='1638847016446'>
+    <name>Createing Event</name>
+    <title>Createing Event</title>
+    <test-cases>
+        <test-case start='1638846942600' status='broken' stop='1638847016442'>
+            <name>Create e2e Event On Applause</name>
+            <title>Create e2e Event On Applause</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1638846942603' status='passed' stop='1638846948264'>
+                    <name>Given I open app</name>
+                    <title>Given I open app</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638846948264' status='passed' stop='1638846955723'>
+                    <name>When I Click on Sign in With Zoom</name>
+                    <title>When I Click on Sign in With Zoom</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638846955723' status='passed' stop='1638846973143'>
+                    <name>Then I Should verify Sign In</name>
+                    <title>Then I Should verify Sign In</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638846973143' status='passed' stop='1638847007135'>
+                    <name>When I Click on Create New Event</name>
+                    <title>When I Click on Create New Event</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638847007135' status='passed' stop='1638847009709'>
+                    <name>Then I Should see Create Event Form</name>
+                    <title>Then I Should see Create Event Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638847009709' status='broken' stop='1638847016442'>
+                    <name>Then I Started Filling Basic Info Form</name>
+                    <title>Then I Started Filling Basic Info Form</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='25703e2e-6c13-4c21-9f6d-ac9f8f205456-attachment.png' type='image/png' size='178092'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Wrong parameters applied for touchScroll</message>
+                <stack-trace>Error: Wrong parameters applied for touchScroll
+                Usage: touchScroll(xoffset, yoffset, element)
+                
+                Property Description:
+                  "xoffset" (number): the x offset in pixels to scroll by
+                  "yoffset" (number): the y offset in pixels to scroll by
+                  "element" (string): ID of the element where the scroll starts
+                
+                For more info see https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol#sessionsessionidtouchscroll
+                
+                    at Browser.protocolCommand (C:\Users\WELCOME\Desktop\mobile_automation\mobile_application_automation\node_modules\webdriver\build\command.js:32:19)
+                    at Browser.wrapCommandFn (C:\Users\WELCOME\Desktop\mobile_automation\mobile_application_automation\node_modules\@wdio\utils\build\shim.js:131:38)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at World.&lt;anonymous> (C:\Users\WELCOME\Desktop\mobile_automation\mobile_application_automation\tests\steps\/app.createEvent.steps.js:63:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

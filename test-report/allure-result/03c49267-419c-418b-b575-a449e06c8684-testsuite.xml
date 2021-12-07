@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638816916055' stop='1638816988464'>
+    <name>Createing Event</name>
+    <title>Createing Event</title>
+    <test-cases>
+        <test-case start='1638816916075' status='passed' stop='1638816988463'>
+            <name>Create e2e Event On Applause</name>
+            <title>Create e2e Event On Applause</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1638816916078' status='passed' stop='1638816921714'>
+                    <name>Given I open app</name>
+                    <title>Given I open app</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638816921714' status='passed' stop='1638816929126'>
+                    <name>When I Click on Sign in With Zoom</name>
+                    <title>When I Click on Sign in With Zoom</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638816929126' status='passed' stop='1638816940594'>
+                    <name>Then I Should verify Sign In</name>
+                    <title>Then I Should verify Sign In</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638816940594' status='passed' stop='1638816975494'>
+                    <name>When I Click on Create New Event</name>
+                    <title>When I Click on Create New Event</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638816975494' status='passed' stop='1638816977785'>
+                    <name>Then I Should see Create Event Form</name>
+                    <title>Then I Should see Create Event Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638816977785' status='passed' stop='1638816988460'>
+                    <name>Then I Started Filling Basic Info Form</name>
+                    <title>Then I Started Filling Basic Info Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

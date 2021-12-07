@@ -1,0 +1,111 @@
+{
+  "uid" : "9898ff478a2bbe0c",
+  "name" : "Displays warning message when logging in with invalid credentials",
+  "fullName" : "Login validations.Displays warning message when logging in with invalid credentials",
+  "historyId" : "78c15088c5d7b095b256530904796e34",
+  "time" : {
+    "start" : 1628878853175,
+    "stop" : 1628878861226,
+    "duration" : 8051
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I'm on the login screen",
+      "time" : {
+        "start" : 1628878853177,
+        "stop" : 1628878856399,
+        "duration" : 3222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I try to log in with credentials; email: 'user@123456' and password: '12346.346'",
+      "time" : {
+        "start" : 1628878856399,
+        "stop" : 1628878860148,
+        "duration" : 3749
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then app displays a message that the credentials are invalid",
+      "time" : {
+        "start" : 1628878860148,
+        "stop" : 1628878861225,
+        "duration" : 1077
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login validations"
+  }, {
+    "name" : "testClass",
+    "value" : "Login validations"
+  }, {
+    "name" : "testMethod",
+    "value" : "Displays warning message when logging in with invalid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login validations"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "emulator-5554-11"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9898ff478a2bbe0c.json",
+  "parameterValues" : [ "emulator-5554-11" ]
+}

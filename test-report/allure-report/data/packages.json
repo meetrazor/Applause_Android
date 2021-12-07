@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Login validations",
+    "children" : [ {
+      "name" : "Displays warning message when logging in with invalid credentials",
+      "uid" : "2ec51673d469cc1e",
+      "parentUid" : "753be4be70e52a82078307f6e8652fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629003846044,
+        "stop" : 1629003850771,
+        "duration" : 4727
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays login successfully, when entering valid credentials",
+      "uid" : "c4a359b2b2951af2",
+      "parentUid" : "753be4be70e52a82078307f6e8652fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629003850778,
+        "stop" : 1629003857518,
+        "duration" : 6740
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    } ],
+    "uid" : "753be4be70e52a82078307f6e8652fe1"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Displays warning message when logging in with invalid credentials",
+    "uid" : "2ec51673d469cc1e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629003846044,
+      "stop" : 1629003850771,
+      "duration" : 4727
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emulator-5554-11" ]
+  }, {
+    "name" : "Displays login successfully, when entering valid credentials",
+    "uid" : "c4a359b2b2951af2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629003850778,
+      "stop" : 1629003857518,
+      "duration" : 6740
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "emulator-5554-11" ]
+  } ],
+  "name" : "behaviors"
+}

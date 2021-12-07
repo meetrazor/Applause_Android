@@ -1,0 +1,21 @@
+[ {
+  "uid" : "2ec51673d469cc1e",
+  "name" : "Displays warning message when logging in with invalid credentials",
+  "time" : {
+    "start" : 1629003846044,
+    "stop" : 1629003850771,
+    "duration" : 4727
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4a359b2b2951af2",
+  "name" : "Displays login successfully, when entering valid credentials",
+  "time" : {
+    "start" : 1629003850778,
+    "stop" : 1629003857518,
+    "duration" : 6740
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

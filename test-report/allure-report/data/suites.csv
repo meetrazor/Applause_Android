@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Aug 15 10:34:10 IST 2021","Sun Aug 15 10:34:17 IST 2021","6740","","Login validations","","Login validations","Displays login successfully, when entering valid credentials","Displays login successfully, when entering valid credentials",""
+"passed","Sun Aug 15 10:34:06 IST 2021","Sun Aug 15 10:34:10 IST 2021","4727","","Login validations","","Login validations","Displays warning message when logging in with invalid credentials","Displays warning message when logging in with invalid credentials",""

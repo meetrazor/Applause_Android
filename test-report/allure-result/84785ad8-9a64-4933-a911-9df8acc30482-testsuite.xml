@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638787631592' stop='1638787654470'>
+    <name>Createing Event</name>
+    <title>Createing Event</title>
+    <test-cases>
+        <test-case start='1638787631604' status='broken' stop='1638787654467'>
+            <name>Create e2e Event On Applause</name>
+            <title>Create e2e Event On Applause</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1638787631607' status='passed' stop='1638787637229'>
+                    <name>Given I open app</name>
+                    <title>Given I open app</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638787637229' status='passed' stop='1638787639594'>
+                    <name>When I Click on Sign in With Zoom</name>
+                    <title>When I Click on Sign in With Zoom</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638787639594' status='passed' stop='1638787652950'>
+                    <name>Then I Should verify Sign In</name>
+                    <title>Then I Should verify Sign In</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638787652950' status='broken' stop='1638787654464'>
+                    <name>When I Click on Create New Event</name>
+                    <title>When I Click on Create New Event</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f21dc0f3-f738-43fc-ab0f-f50bbc8ead6e-attachment.png' type='image/png' size='1315999'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638787654464' status='broken' stop='1638787654465'>
+                    <name>Then I Should see Create Event Form</name>
+                    <title>Then I Should see Create Event Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638787654465' status='broken' stop='1638787654465'>
+                    <name>Then I Started Filling Basic Info Form</name>
+                    <title>Then I Started Filling Basic Info Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638787654465' status='broken' stop='1638787654466'>
+                    <name>Then I Started Filling Details Form</name>
+                    <title>Then I Started Filling Details Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638787654466' status='broken' stop='1638787654466'>
+                    <name>Then I Started Filling Add Media Form</name>
+                    <title>Then I Started Filling Add Media Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638787654466' status='broken' stop='1638787654466'>
+                    <name>Then I Started Filling Add Co-Hosts Form</name>
+                    <title>Then I Started Filling Add Co-Hosts Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638787654467' status='broken' stop='1638787654467'>
+                    <name>Then I Preview Event</name>
+                    <title>Then I Preview Event</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638787654467' status='broken' stop='1638787654467'>
+                    <name>Then I Should See Congratulations Page</name>
+                    <title>Then I Should See Congratulations Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638787654467' status='broken' stop='1638787654467'>
+                    <name>Then I Should Redirect To Event List Page And See Created Event</name>
+                    <title>Then I Should Redirect To Event List Page And See Created Event</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "I Should Redirect To Event List Page And See Created Event" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I Should Redirect To Event List Page And See Created Event" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\WELCOME\Desktop\mobile_automation\mobile_application_automation\tests\features\createEvente2e.feature):1:1
+                	at Scenario(Create e2e Event On Applause):2:3
+                	at Step(I Should Redirect To Event List Page And See Created Event):14:5
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

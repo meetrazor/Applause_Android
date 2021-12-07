@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629392340104' stop='1629392340144'>
+    <name>Login validations</name>
+    <title>Login validations</title>
+    <test-cases>
+        <test-case start='1629392340113' status='broken' stop='1629392340126'>
+            <name>Displays warning message when logging in with invalid credentials</name>
+            <title>Displays warning message when logging in with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629392340116' status='broken' stop='1629392340126'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629392340126' status='canceled' stop='1629392340128'>
+                    <name>When I try to log in with credentials; email: 'user@123456.com' and password: '12346.346'</name>
+                    <title>When I try to log in with credentials; email: 'user@123456.com' and password: '12346.346'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629392340128' status='canceled' stop='1629392340128'>
+                    <name>Then app displays a message that the credentials are invalid</name>
+                    <title>Then app displays a message that the credentials are invalid</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>$(...).waitForDisplayed is not a function</message>
+                <stack-trace>TypeError: $(...).waitForDisplayed is not a function
+                    at TabBar.waitForSignupShown (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/screenobjects/components/tabBar.js:27:51)
+                    at World.&lt;anonymous> (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/steps/app.login.steps.js:9:12)
+                    at World.executeAsync (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/node_modules/@wdio/utils/build/shim.js:123:21)
+                    at World.testFrameworkFnWrapper (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:55:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1629392340129' status='broken' stop='1629392340137'>
+            <name>Displays warning message when logging in with invalid credentials</name>
+            <title>Displays warning message when logging in with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629392340131' status='broken' stop='1629392340137'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629392340137' status='canceled' stop='1629392340139'>
+                    <name>When I try to log in with credentials; email: '3243g@user.com' and password: '/12346569'</name>
+                    <title>When I try to log in with credentials; email: '3243g@user.com' and password: '/12346569'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629392340139' status='canceled' stop='1629392340140'>
+                    <name>Then app displays a message that the credentials are invalid</name>
+                    <title>Then app displays a message that the credentials are invalid</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>$(...).waitForDisplayed is not a function</message>
+                <stack-trace>TypeError: $(...).waitForDisplayed is not a function
+                    at TabBar.waitForSignupShown (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/screenobjects/components/tabBar.js:27:51)
+                    at World.&lt;anonymous> (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/steps/app.login.steps.js:9:12)
+                    at World.executeAsync (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/node_modules/@wdio/utils/build/shim.js:123:21)
+                    at World.testFrameworkFnWrapper (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:55:28)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1629392340140' status='broken' stop='1629392340143'>
+            <name>Displays login successfully, when entering valid credentials</name>
+            <title>Displays login successfully, when entering valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629392340141' status='broken' stop='1629392340143'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629392340143' status='canceled' stop='1629392340143'>
+                    <name>When I log in with the user'Administrator'</name>
+                    <title>When I log in with the user'Administrator'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>$(...).waitForDisplayed is not a function</message>
+                <stack-trace>TypeError: $(...).waitForDisplayed is not a function
+                    at TabBar.waitForSignupShown (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/screenobjects/components/tabBar.js:27:51)
+                    at World.&lt;anonymous> (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/steps/app.login.steps.js:9:12)
+                    at World.executeAsync (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/node_modules/@wdio/utils/build/shim.js:123:21)
+                    at World.testFrameworkFnWrapper (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:55:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

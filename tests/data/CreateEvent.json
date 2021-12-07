@@ -1,0 +1,16 @@
+{
+    "EventCategory": "Comedy",
+    "EventType": "Meet & Greet",
+    "HostedBy": "Auto_Krunal_v2",
+    "EventTitle": "Auto-Event-V2",
+    
+    "ImageNumber": 1,
+    "EventColor": 2,
+    "EventVideoLink": 
+        "https://www.youtube.com/watch?v=2f31hcGTb-0&list=RD2f31hcGTb-0&start_radio=1",
+    
+    "EventCoHosts": 
+        { "FullName": "Auto-Host", "EmailId": "test@gmail.com" }
+ 
+    
+}

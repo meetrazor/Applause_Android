@@ -1,0 +1,130 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629292875080' stop='1629292915492'>
+    <name>Login validations</name>
+    <title>Login validations</title>
+    <test-cases>
+        <test-case start='1629292875093' status='broken' stop='1629292892527'>
+            <name>Displays warning message when logging in with invalid credentials</name>
+            <title>Displays warning message when logging in with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629292875096' status='passed' stop='1629292882870'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629292882870' status='passed' stop='1629292886047'>
+                    <name>When I try to log in with credentials; email: 'user@123456' and password: '12346.346'</name>
+                    <title>When I try to log in with credentials; email: 'user@123456' and password: '12346.346'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629292886047' status='broken' stop='1629292892527'>
+                    <name>Then app displays a message that the credentials are invalid</name>
+                    <title>Then app displays a message that the credentials are invalid</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8451d389-eff0-4886-bad8-0468cd9b2f78-attachment.png' type='image/png' size='603771'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "//*[contains(@text, "credentials you entered")]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "//*[contains(@text, "credentials you entered")]" because element wasn't found
+                    at World.&lt;anonymous> (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/steps/app.login.steps.js:23:41)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1629292892530' status='broken' stop='1629292902199'>
+            <name>Displays warning message when logging in with invalid credentials</name>
+            <title>Displays warning message when logging in with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629292892531' status='passed' stop='1629292892609'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629292892609' status='passed' stop='1629292895297'>
+                    <name>When I try to log in with credentials; email: '3243g@user' and password: '/12346569'</name>
+                    <title>When I try to log in with credentials; email: '3243g@user' and password: '/12346569'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629292895297' status='broken' stop='1629292902199'>
+                    <name>Then app displays a message that the credentials are invalid</name>
+                    <title>Then app displays a message that the credentials are invalid</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4fa84cd8-d902-4a07-b6a6-2c248629c564-attachment.png' type='image/png' size='602699'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "//*[contains(@text, "credentials you entered")]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "//*[contains(@text, "credentials you entered")]" because element wasn't found
+                    at World.&lt;anonymous> (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/steps/app.login.steps.js:23:41)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1629292902202' status='broken' stop='1629292915488'>
+            <name>Displays login successfully, when entering valid credentials</name>
+            <title>Displays login successfully, when entering valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629292902202' status='passed' stop='1629292902318'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629292902318' status='broken' stop='1629292915488'>
+                    <name>When I log in with the user'Administrator'</name>
+                    <title>When I log in with the user'Administrator'</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6daf9426-a28a-4a3c-8463-2efc6608085a-attachment.png' type='image/png' size='917324'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1629292915488' status='canceled' stop='1629292915491'>
+                    <name>Then app displays alert of successful login</name>
+                    <title>Then app displays alert of successful login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("*//android.widget.TextView[@resource-id="android:id/alertTitle"]") still not existing after 11000ms</message>
+                <stack-trace>Error: element ("*//android.widget.TextView[@resource-id="android:id/alertTitle"]") still not existing after 11000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:88:5)
+                    at Function.waitForIsShown (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/helpers/NativeAlert.js:22:21)
+                    at LoginScreen.loginMessagemOk (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/screenobjects/login.screen.js:93:20)
+                    at World.&lt;anonymous> (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/steps/app.login.steps.js:31:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

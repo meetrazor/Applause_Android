@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638810789895' stop='1638810811372'>
+    <name>Createing Event</name>
+    <title>Createing Event</title>
+    <test-cases>
+        <test-case start='1638810789923' status='broken' stop='1638810811365'>
+            <name>Create e2e Event On Applause</name>
+            <title>Create e2e Event On Applause</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 10.0-10'/>
+            </parameters>
+            <steps>
+                <step start='1638810789925' status='passed' stop='1638810795096'>
+                    <name>Given I open app</name>
+                    <title>Given I open app</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638810795097' status='broken' stop='1638810811362'>
+                    <name>When I Click on Sign in With Zoom</name>
+                    <title>When I Click on Sign in With Zoom</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='04f99741-54ea-4052-9401-f9b6b94ad981-attachment.png' type='image/png' size='1753937'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638810811365' status='canceled' stop='1638810811366'>
+                    <name>Then I Should verify Sign In</name>
+                    <title>Then I Should verify Sign In</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638810811366' status='canceled' stop='1638810811368'>
+                    <name>When I Click on Create New Event</name>
+                    <title>When I Click on Create New Event</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638810811368' status='canceled' stop='1638810811369'>
+                    <name>Then I Should see Create Event Form</name>
+                    <title>Then I Should see Create Event Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1638810811369' status='canceled' stop='1638810811369'>
+                    <name>Then I Started Filling Basic Info Form</name>
+                    <title>Then I Started Filling Basic Info Form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call click on element with selector "//android.widget.TextView[@text='Got It!']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//android.widget.TextView[@text='Got It!']" because element wasn't found
+                    at implicitWait (C:\Users\WELCOME\Desktop\mobile_automation\mobile_application_automation\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\WELCOME\Desktop\mobile_automation\mobile_application_automation\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at Element.wrapCommandFn (C:\Users\WELCOME\Desktop\mobile_automation\mobile_application_automation\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at World.&lt;anonymous> (C:\Users\WELCOME\Desktop\mobile_automation\mobile_application_automation\tests\steps\/app.createEvent.steps.js:16:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

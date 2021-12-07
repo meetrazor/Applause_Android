@@ -1,0 +1,110 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629293494092' stop='1629293521822'>
+    <name>Login validations</name>
+    <title>Login validations</title>
+    <test-cases>
+        <test-case start='1629293494103' status='passed' stop='1629293501493'>
+            <name>Displays warning message when logging in with invalid credentials</name>
+            <title>Displays warning message when logging in with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629293494105' status='passed' stop='1629293496607'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629293496607' status='passed' stop='1629293501356'>
+                    <name>When I try to log in with credentials; email: 'user@123456.com' and password: '12346.346'</name>
+                    <title>When I try to log in with credentials; email: 'user@123456.com' and password: '12346.346'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629293501356' status='passed' stop='1629293501491'>
+                    <name>Then app displays a message that the credentials are invalid</name>
+                    <title>Then app displays a message that the credentials are invalid</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1629293501493' status='passed' stop='1629293506481'>
+            <name>Displays warning message when logging in with invalid credentials</name>
+            <title>Displays warning message when logging in with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629293501494' status='passed' stop='1629293501599'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629293501599' status='passed' stop='1629293504799'>
+                    <name>When I try to log in with credentials; email: '3243g@user.com' and password: '/12346569'</name>
+                    <title>When I try to log in with credentials; email: '3243g@user.com' and password: '/12346569'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629293504799' status='passed' stop='1629293506481'>
+                    <name>Then app displays a message that the credentials are invalid</name>
+                    <title>Then app displays a message that the credentials are invalid</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1629293506482' status='broken' stop='1629293521821'>
+            <name>Displays login successfully, when entering valid credentials</name>
+            <title>Displays login successfully, when entering valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-11'/>
+            </parameters>
+            <steps>
+                <step start='1629293506482' status='passed' stop='1629293506562'>
+                    <name>Given I'm on the login screen</name>
+                    <title>Given I'm on the login screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1629293506562' status='broken' stop='1629293521821'>
+                    <name>When I log in with the user'Administrator'</name>
+                    <title>When I log in with the user'Administrator'</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='314c33ee-89d1-4a6b-8a70-dc89dddc1896-attachment.png' type='image/png' size='917058'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("*//android.widget.TextView[@resource-id="android:id/alertTitle"]") still not existing after 11000ms</message>
+                <stack-trace>Error: element ("*//android.widget.TextView[@resource-id="android:id/alertTitle"]") still not existing after 11000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:88:5)
+                    at Function.waitForIsShown (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/helpers/NativeAlert.js:22:21)
+                    at LoginScreen.loginMessagemOk (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/screenobjects/login.screen.js:93:20)
+                    at World.&lt;anonymous> (/Users/krunal/Downloads/webdriverio-appium-cucumber-js/tests/steps/app.login.steps.js:32:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,165 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Displays warning message when logging in with invalid credentials",
+      "uid" : "dee8ff6566438b34",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629003841020,
+        "stop" : 1629003846038,
+        "duration" : 5018
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays login successfully, when entering valid credentials",
+      "uid" : "bed7ebaa5363fcad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628876786109,
+        "stop" : 1628876792873,
+        "duration" : 6764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays login successfully, when entering valid credentials",
+      "uid" : "81e0d9e21574bb1d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628878140025,
+        "stop" : 1628878146960,
+        "duration" : 6935
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays warning message when logging in with invalid credentials",
+      "uid" : "170fa3e1a0a51b51",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628878135294,
+        "stop" : 1628878140025,
+        "duration" : 4731
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays login successfully, when entering valid credentials",
+      "uid" : "92452ba7b96f7799",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628878865950,
+        "stop" : 1628878872713,
+        "duration" : 6763
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays warning message when logging in with invalid credentials",
+      "uid" : "e1253d63d61d741b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628878130506,
+        "stop" : 1628878135293,
+        "duration" : 4787
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays warning message when logging in with invalid credentials",
+      "uid" : "9898ff478a2bbe0c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628878853175,
+        "stop" : 1628878861226,
+        "duration" : 8051
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays login successfully, when entering valid credentials",
+      "uid" : "c4a359b2b2951af2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629003850778,
+        "stop" : 1629003857518,
+        "duration" : 6740
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays warning message when logging in with invalid credentials",
+      "uid" : "4b7f630cdcbd6043",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628878861229,
+        "stop" : 1628878865949,
+        "duration" : 4720
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays warning message when logging in with invalid credentials",
+      "uid" : "4aad7982838789dc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628876781400,
+        "stop" : 1628876786108,
+        "duration" : 4708
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays warning message when logging in with invalid credentials",
+      "uid" : "7d1274cd93f77067",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628876776591,
+        "stop" : 1628876781390,
+        "duration" : 4799
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays warning message when logging in with invalid credentials",
+      "uid" : "2ec51673d469cc1e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629003846044,
+        "stop" : 1629003850771,
+        "duration" : 4727
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ],
+  "name" : "timeline"
+}

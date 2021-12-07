@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Login validations",
+    "children" : [ {
+      "name" : "Displays warning message when logging in with invalid credentials",
+      "uid" : "2ec51673d469cc1e",
+      "parentUid" : "89cbc33ff1b6f0ccc18a04007e7ef84b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629003846044,
+        "stop" : 1629003850771,
+        "duration" : 4727
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    }, {
+      "name" : "Displays login successfully, when entering valid credentials",
+      "uid" : "c4a359b2b2951af2",
+      "parentUid" : "89cbc33ff1b6f0ccc18a04007e7ef84b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629003850778,
+        "stop" : 1629003857518,
+        "duration" : 6740
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "emulator-5554-11" ]
+    } ],
+    "uid" : "89cbc33ff1b6f0ccc18a04007e7ef84b"
+  } ],
+  "name" : "suites"
+}
